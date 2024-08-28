@@ -10,11 +10,11 @@ import java.util.List;
 
 public class TestClass {
     public static void main(String[] args) {
-        List<EngineVehicle> list=new ArrayList<>();
+        List<Vehicle> list=new ArrayList<>();
         list.add(new MotorCycle());
         list.add(new Car());
         list.add(new Bicycle());
-        for (EngineVehicle v: list)
+        for (Vehicle v: list)
         {
             System.out.println(v.engineType().toString());
         }
