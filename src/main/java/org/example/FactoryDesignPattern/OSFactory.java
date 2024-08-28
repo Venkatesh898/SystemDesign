@@ -9,6 +9,7 @@ public class OSFactory {
             return new Windows();
         if(str.equalsIgnoreCase("limited"))
             return new Mac();
+        else return null;
     }
 
 }

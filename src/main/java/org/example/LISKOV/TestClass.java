@@ -16,7 +16,7 @@ public class TestClass {
         list.add(new Bicycle());
         for (Vehicle v: list)
         {
-            System.out.println(v.engineType().toString());
+            //System.out.println(v.engineType().toString());
         }
     }
 }
