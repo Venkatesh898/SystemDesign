@@ -1,0 +1,2 @@
+Adapter design pattern allows Objects with Incompatible interfaces to collaborate with one another.
+It is a structural design pattern.
